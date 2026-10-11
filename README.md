@@ -27,30 +27,6 @@ The project uses two primary datasets:
 4. **Filtering & Ranking:** Excluded movies already rated by User 10, calculated mean similarity scores for unseen movies, and selected the top 5 highest-ranked titles.
 
 ---
----
-
-## Recommendation Results
-
-The table below displays the top 5 movie recommendations generated for **User ID 10**:
-
-| Rank | Recommended Movie | Genres | Reason |
-| --- | --- | --- | --- |
-| **1** | Top Recommendation 1 | *[Extracted Genres]* | Matches genre profile of positively rated movies
-
- |
-| **2** | Top Recommendation 2 | *[Extracted Genres]* | High cosine similarity to user's favorite genres
-
- |
-| **3** | Top Recommendation 3 | *[Extracted Genres]* | Matches genre profile of positively rated movies
-
- |
-| **4** | Top Recommendation 4 | *[Extracted Genres]* | High similarity score with liked catalogue items
-
- |
-| **5** | Top Recommendation 5 | *[Extracted Genres]* | Matches genre profile of positively rated movies
-
- |
-
 
 
 ## Limitation and Suggested Improvement
